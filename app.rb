@@ -15,3 +15,7 @@ end
 get '/thanks' do
   File.read(File.join('public', 'thanks.html'))
 end
+
+get '/confirmed' do
+  File.read(File.join('public', 'confirmed.html'))
+end
